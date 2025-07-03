@@ -1,6 +1,7 @@
 # Radix Colors
 Radix colors as CSS, SCSS, and JSON
 
+> **Note:** This repo is not owned or managed by WorkOS; it’s provided by me as a convenience to fellow devs. For the official Radix repo, see [radix-ui/colors](https://github.com/radix-ui/colors).
 
 ## Usage
 
@@ -19,9 +20,10 @@ Radix colors as CSS, SCSS, and JSON
 | 11   | Secondary text & links                  | Background colors                                          |
 | 12   | High-contrast text                      | Background colors                                          |
 
-## Use Case Descriptions
-- Steps 1–2 are your lightest fills, ideal for page or component backgrounds.
-- Steps 3–5 cover hover/focus/active states and other interactive elements.
-- Steps 6–8 are for borders, dividers, and focus rings (with step 8 sometimes used for disabled text in neutral scales).
-- Steps 9–10 provide solid color fills—pair with high-contrast text (usually white, except in very bright “accent” palettes where dark text may work).
-- Steps 11–12 give you text colors: step 11 for secondary/link text, step 12 for primary, high-contrast text.
+## Definitions
+- **Backgrounds**: lightest fills, ideal for page or component backgrounds.
+- **Interactive components**: hover/focus/active states and other interactive elements.
+- **Borders, separators, and focus rings**: borders, dividers, and focus rings (step 8 sometimes used for disabled text in neutral scales).
+- **Solid backgrounds, buttons**: pair with high-contrast text (usually white, except in very bright “accent” palettes where dark text may work).
+- **Secondary text & links**: used for labels, metadata, captions, and other supporting information.
+- **High-contrast text**: used for primary content (e.g., headings and body copy) to ensure maximum readability against background colors.
